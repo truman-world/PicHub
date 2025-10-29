@@ -4,9 +4,7 @@
 
 <img src="https://github.com/truman-world/PicHub/raw/main/public/images/pichub-logo.png" alt="PicHub Logo" width="400">
 
-# PicHub
-
-专业的图片托管与管理平台
+# PicHub - 专业的图片托管与管理平台
 
 [在线演示](https://pichub.app) · [问题反馈](https://github.com/truman-world/PicHub/issues)
 
@@ -15,32 +13,31 @@
 
 **后端技术**
 
-[![Laravel](https://img.shields.io/badge/Laravel-11.x-FF2D20?logo=laravel&logoColor=white&style=for-the-badge)](https://laravel.com)
+[![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?logo=laravel&logoColor=white&style=for-the-badge)](https://laravel.com)
 [![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?logo=php&logoColor=white&style=for-the-badge)](https://php.net)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?logo=mysql&logoColor=white&style=for-the-badge)](https://mysql.com)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13+-4169E1?logo=postgresql&logoColor=white&style=for-the-badge)](https://postgresql.org)
-[![Redis](https://img.shields.io/badge/Redis-Latest-DC382D?logo=redis&logoColor=white&style=for-the-badge)](https://redis.io)
+[![Filament](https://img.shields.io/badge/Filament-3.2-F59E0B?logo=laravel&logoColor=white&style=for-the-badge)](https://filamentphp.com)
 
 **前端技术**
 
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.x-06B6D4?logo=tailwindcss&logoColor=white&style=for-the-badge)](https://tailwindcss.com)
 [![Alpine.js](https://img.shields.io/badge/Alpine.js-3.x-8BC0D0?logo=alpinedotjs&logoColor=white&style=for-the-badge)](https://alpinejs.dev)
-[![Vite](https://img.shields.io/badge/Vite-Latest-646CFF?logo=vite&logoColor=white&style=for-the-badge)](https://vitejs.dev)
-[![Blade](https://img.shields.io/badge/Blade-Latest-FF2D20?logo=laravel&logoColor=white&style=for-the-badge)](https://laravel.com/docs/blade)
+[![Vite](https://img.shields.io/badge/Vite-6.x-646CFF?logo=vite&logoColor=white&style=for-the-badge)](https://vitejs.dev)
+[![Blade](https://img.shields.io/badge/Blade-模板引擎-FF2D20?logo=laravel&logoColor=white&style=for-the-badge)](https://laravel.com/docs/blade)
 
-**存储服务**
+**存储支持**
 
-[![Aliyun OSS](https://img.shields.io/badge/阿里云_OSS-FF6A00?logo=alibabacloud&logoColor=white&style=for-the-badge)](https://aliyun.com/product/oss)
-[![Tencent COS](https://img.shields.io/badge/腾讯云_COS-006EFF?logo=tencentqq&logoColor=white&style=for-the-badge)](https://cloud.tencent.com/product/cos)
-[![Qiniu](https://img.shields.io/badge/七牛云-00C1DE?logo=qiniu&logoColor=white&style=for-the-badge)](https://qiniu.com)
-[![AWS S3](https://img.shields.io/badge/AWS_S3-232F3E?logo=amazonaws&logoColor=white&style=for-the-badge)](https://aws.amazon.com/s3)
+[![本地存储](https://img.shields.io/badge/本地存储-支持-10B981?style=for-the-badge)]()
+[![阿里云 OSS](https://img.shields.io/badge/阿里云_OSS-支持-FF6A00?logo=alibabacloud&logoColor=white&style=for-the-badge)](https://aliyun.com/product/oss)
+[![腾讯云 COS](https://img.shields.io/badge/腾讯云_COS-支持-006EFF?style=for-the-badge)](https://cloud.tencent.com/product/cos)
+[![七牛云](https://img.shields.io/badge/七牛云-支持-00C1DE?style=for-the-badge)](https://qiniu.com)
 
-**开发工具**
+**核心特性**
 
-[![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge)](https://docker.com)
-[![Composer](https://img.shields.io/badge/Composer-885630?logo=composer&logoColor=white&style=for-the-badge)](https://getcomposer.org)
-[![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge)](https://git-scm.com)
-[![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white&style=for-the-badge)](https://npmjs.com)
+[![图片处理](https://img.shields.io/badge/图片处理-Intervention_Image-4F46E5?style=for-the-badge)]()
+[![相册管理](https://img.shields.io/badge/相册管理-完整支持-10B981?style=for-the-badge)]()
+[![多语言](https://img.shields.io/badge/多语言-中英法俄-F59E0B?style=for-the-badge)]()
+[![API 接口](https://img.shields.io/badge/API-RESTful-06B6D4?style=for-the-badge)]()
 
 </td>
 </tr>
@@ -48,29 +45,36 @@
 
 ---
 
-## 为什么选择 PicHub？
+## 核心优势
 
 <table>
 <tr>
-<td width="33%" align="center">
+<td width="25%" align="center">
 
-### 高性能
+### 简单易用
 
-自动图片压缩、缩略图生成、CDN 加速，确保图片加载速度快如闪电。
-
-</td>
-<td width="33%" align="center">
-
-### 高安全
-
-企业级权限控制、防盗链、水印保护，全方位保障您的图片安全。
+直观的界面设计，拖拽上传，批量管理，零学习成本快速上手。
 
 </td>
-<td width="33%" align="center">
+<td width="25%" align="center">
 
-### 易集成
+### 功能完善
 
-完整的 RESTful API、多种 SDK，轻松集成到您的应用中。
+相册管理、图片处理、多格式支持、API 接口，满足各类需求。
+
+</td>
+<td width="25%" align="center">
+
+### 灵活存储
+
+支持本地存储和多种云存储服务，自由选择最适合的方案。
+
+</td>
+<td width="25%" align="center">
+
+### 多语言
+
+内置中英法俄四种语言，支持深色模式，提供更好的用户体验。
 
 </td>
 </tr>
@@ -223,79 +227,57 @@ docker-compose exec app php artisan migrate --seed
 
 ## 技术架构
 
-### 系统架构
-
-```mermaid
-graph TB
-    A[用户] --> B[Nginx/Apache]
-    B --> C[Laravel 应用]
-    C --> D[MySQL/PostgreSQL]
-    C --> E[Redis 缓存]
-    C --> F[存储服务]
-    F --> G[本地存储]
-    F --> H[阿里云 OSS]
-    F --> I[腾讯云 COS]
-    F --> J[AWS S3]
-    C --> K[队列系统]
-    K --> L[图片处理任务]
-```
-
-### 目录结构
+### 核心架构
 
 ```
-pichub/
-├── app/                    # 应用核心代码
-│   ├── Http/              # 控制器、中间件、请求
-│   ├── Models/            # Eloquent 模型
-│   ├── Services/          # 业务逻辑服务
-│   └── Jobs/              # 队列任务
-├── resources/             # 前端资源
-│   ├── views/             # Blade 模板
-│   ├── css/               # 样式文件
-│   ├── js/                # JavaScript 文件
-│   └── lang/              # 多语言文件
-├── public/                # 公共资源
-├── routes/                # 路由定义
-├── database/              # 数据库迁移和种子
-├── storage/               # 文件存储
-│   ├── app/              # 应用存储
-│   ├── logs/             # 日志文件
-│   └── framework/        # 框架缓存
-├── tests/                 # 单元测试和功能测试
-├── docs/                  # 项目文档
-└── tools/                 # 开发工具
-    ├── analyzers/        # 代码分析工具
-    └── scripts/          # 运维脚本
+┌─────────────┐
+│   用户端    │ (浏览器/API 客户端)
+└──────┬──────┘
+       │
+┌──────▼──────────────────────────────┐
+│         Laravel 12 应用层           │
+│  ┌──────────┬──────────┬─────────┐ │
+│  │ 路由层   │ 控制器   │ 中间件  │ │
+│  └──────────┴──────────┴─────────┘ │
+│  ┌──────────┬──────────┬─────────┐ │
+│  │ 业务逻辑 │ 模型层   │ 服务层  │ │
+│  └──────────┴──────────┴─────────┘ │
+└──────┬──────────────────────────────┘
+       │
+┌──────▼──────────────────────────────┐
+│          数据存储层                  │
+│  ┌──────────┬──────────┬─────────┐ │
+│  │  MySQL   │ 本地存储 │ 云存储  │ │
+│  │  数据库  │  /img    │ OSS/COS │ │
+│  └──────────┴──────────┴─────────┘ │
+└─────────────────────────────────────┘
 ```
+
+### 核心模块
+
+- **用户系统**: 注册登录、权限管理、配额控制
+- **图片管理**: 上传处理、格式转换、缩略图生成
+- **相册系统**: 相册创建、图片分类、批量操作
+- **存储引擎**: 本地存储、阿里云 OSS、腾讯云 COS、七牛云
+- **API 服务**: RESTful API、认证授权、接口文档
+- **后台管理**: Filament 3.2 管理面板、数据统计、系统配置
 
 ---
 
-## 文档
+## 使用文档
 
-完整的项目文档位于 [`docs/`](docs/) 目录：
+### 快速开始
 
-### 入门文档
+- **安装部署** - 参考上方"快速开始"章节
+- **基础使用** - 注册账号后即可开始上传图片
+- **相册管理** - 创建相册、整理图片、设置权限
+- **API 接口** - 访问 `/api/docs` 查看完整 API 文档
 
-- [文档索引](docs/DOCS_INDEX.md) - 所有文档的导航入口
-- [相册快速开始](docs/ALBUM_QUICK_START.md) - 5分钟快速上手相册功能
-- [相册功能详解](docs/ALBUM_FEATURES.md) - 相册功能完整说明
+### 配置说明
 
-### 开发文档
-
-- [Claude 开发规范](CLAUDE.md) - AI 辅助开发规范和最佳实践
-- [代码质量审计](docs/code-quality-audit-report.md) - 代码规范和质量要求
-- [Controller 审计](docs/controller-audit-summary.md) - 控制器设计规范
-
-### 配置指南
-
-- [数据库迁移](docs/MIGRATION_GUIDE.md) - 数据库升级和迁移指南
-- [邮件服务配置](docs/EMAIL_SOLUTIONS.md) - SMTP、SendGrid 等配置
-- [DNS 配置指南](docs/dns-fix-guide.md) - 域名解析和SSL配置
-
-### 运维文档
-
-- [问题修复记录](docs/PROJECT_FIXES.md) - Bug 修复和功能更新日志
-- [性能优化](docs/database-performance-update.md) - 数据库和缓存优化
+- **存储配置** - 在后台管理面板配置本地或云存储
+- **邮件配置** - 配置 SMTP 服务用于邮件通知
+- **系统设置** - 自定义网站名称、Logo、SEO 信息
 
 ---
 
@@ -377,32 +359,23 @@ PicHub 支持以下语言：
 
 ---
 
-## 联系方式
+## 联系我们
 
-<table>
-<tr>
-<td width="50%" align="center">
+<div align="center">
 
-### 社区支持
+### 官方网站
 
-- [GitHub Discussions](https://github.com/truman-world/pichub/discussions)
-- [Discord 社区](https://discord.gg/pichub)
-- [Stack Overflow](https://stackoverflow.com/questions/tagged/pichub)
-- [中文论坛](https://forum.pichub.app)
+[https://pichub.app](https://pichub.app)
 
-</td>
-<td width="50%" align="center">
+### 问题反馈
+
+发现 Bug 或有功能建议？欢迎 [提交 Issue](https://github.com/truman-world/PicHub/issues)
 
 ### 商务合作
 
-- **官方网站**: https://pichub.app
-- **邮箱**: contact@pichub.app
-- **Twitter**: [@PicHubApp](https://twitter.com/pichubapp)
-- **微信**: PicHub官方
+邮箱：contact@pichub.app
 
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
