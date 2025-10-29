@@ -1,31 +1,24 @@
+<div align="center">
+
+<img src="./public/images/pichub-logo.png" alt="PicHub Logo" width="400">
+
+# PicHub
+
+专业的图片托管与管理平台
+
+[在线演示](https://pichub.app) · [问题反馈](https://github.com/truman-world/PicHub/issues)
+
+</div>
+
+---
+
 <table>
 <tr>
 <td width="50%" align="center" valign="middle">
 
-<img src="./public/images/pichub-logo-3d.png" alt="PicHub Logo" width="400">
-
-# PicHub
-
-[PicHub](https://pichub.app) 是一个**专业的图片托管与管理平台**，为个人和企业提供**安全、高效、易用**的图片存储解决方案。
-
-支持**多种存储后端**、**完整的 API 接口**和**强大的相册管理**功能。🚀
-
-无论是个人博客、社交媒体，还是企业应用，PicHub 都能满足您的图片托管需求。
-
 <br />
 
-📖 查看 [完整文档](https://pichub.app/docs) | 🎮 [在线演示](https://demo.pichub.app) | 🐛 [问题反馈](https://github.com/yourusername/pichub/issues)
-
-<br />
-
-Made with ❤️ by the PicHub Team, 服务全球用户 🌍
-
-</td>
-<td width="50%" align="center" valign="middle">
-
-<br />
-
-**🛠️ 后端技术**
+**后端技术**
 
 [![Laravel](https://img.shields.io/badge/Laravel-11.x-FF2D20?logo=laravel&logoColor=white&style=for-the-badge)](https://laravel.com)
 [![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?logo=php&logoColor=white&style=for-the-badge)](https://php.net)
@@ -33,21 +26,21 @@ Made with ❤️ by the PicHub Team, 服务全球用户 🌍
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13+-4169E1?logo=postgresql&logoColor=white&style=for-the-badge)](https://postgresql.org)
 [![Redis](https://img.shields.io/badge/Redis-Latest-DC382D?logo=redis&logoColor=white&style=for-the-badge)](https://redis.io)
 
-**🎨 前端技术**
+**前端技术**
 
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.x-06B6D4?logo=tailwindcss&logoColor=white&style=for-the-badge)](https://tailwindcss.com)
 [![Alpine.js](https://img.shields.io/badge/Alpine.js-3.x-8BC0D0?logo=alpinedotjs&logoColor=white&style=for-the-badge)](https://alpinejs.dev)
 [![Vite](https://img.shields.io/badge/Vite-Latest-646CFF?logo=vite&logoColor=white&style=for-the-badge)](https://vitejs.dev)
 [![Blade](https://img.shields.io/badge/Blade-Latest-FF2D20?logo=laravel&logoColor=white&style=for-the-badge)](https://laravel.com/docs/blade)
 
-**☁️ 存储服务**
+**存储服务**
 
 [![Aliyun OSS](https://img.shields.io/badge/阿里云_OSS-FF6A00?logo=alibabacloud&logoColor=white&style=for-the-badge)](https://aliyun.com/product/oss)
 [![Tencent COS](https://img.shields.io/badge/腾讯云_COS-006EFF?logo=tencentqq&logoColor=white&style=for-the-badge)](https://cloud.tencent.com/product/cos)
 [![Qiniu](https://img.shields.io/badge/七牛云-00C1DE?logo=qiniu&logoColor=white&style=for-the-badge)](https://qiniu.com)
 [![AWS S3](https://img.shields.io/badge/AWS_S3-232F3E?logo=amazonaws&logoColor=white&style=for-the-badge)](https://aws.amazon.com/s3)
 
-**🔧 开发工具**
+**开发工具**
 
 [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge)](https://docker.com)
 [![Composer](https://img.shields.io/badge/Composer-885630?logo=composer&logoColor=white&style=for-the-badge)](https://getcomposer.org)
@@ -62,27 +55,27 @@ Made with ❤️ by the PicHub Team, 服务全球用户 🌍
 
 ---
 
-## 🌟 为什么选择 PicHub？
+## 为什么选择 PicHub？
 
 <table>
 <tr>
 <td width="33%" align="center">
 
-### 🚀 高性能
+### 高性能
 
 自动图片压缩、缩略图生成、CDN 加速，确保图片加载速度快如闪电。
 
 </td>
 <td width="33%" align="center">
 
-### 🔐 高安全
+### 高安全
 
 企业级权限控制、防盗链、水印保护，全方位保障您的图片安全。
 
 </td>
 <td width="33%" align="center">
 
-### 🎯 易集成
+### 易集成
 
 完整的 RESTful API、多种 SDK，轻松集成到您的应用中。
 
@@ -92,9 +85,9 @@ Made with ❤️ by the PicHub Team, 服务全球用户 🌍
 
 ---
 
-## ✨ 核心功能
+## 核心功能
 
-### 🖼️ 图片管理
+### 图片管理
 
 - ✅ **多格式支持** - JPEG、PNG、WebP、GIF、SVG 等主流图片格式
 - ✅ **批量上传** - 支持拖拽上传、粘贴上传、批量上传
@@ -102,7 +95,7 @@ Made with ❤️ by the PicHub Team, 服务全球用户 🌍
 - ✅ **智能裁剪** - 按比例裁剪、智能识别主体
 - ✅ **懒加载** - 提升页面加载速度
 
-### 📁 相册系统
+### 相册系统
 
 - ✅ **相册管理** - 创建、编辑、删除相册，支持封面设置
 - ✅ **分类整理** - 按标签、日期、相册分类管理图片
@@ -110,7 +103,7 @@ Made with ❤️ by the PicHub Team, 服务全球用户 🌍
 - ✅ **相册分享** - 生成分享链接，支持密码保护
 - ✅ **权限控制** - 公开/私有/仅自己可见
 
-### ☁️ 存储方案
+### 存储方案
 
 - ✅ **本地存储** - 适合小规模部署
 - ✅ **阿里云 OSS** - 高可用、低成本
@@ -119,7 +112,7 @@ Made with ❤️ by the PicHub Team, 服务全球用户 🌍
 - ✅ **AWS S3** - 全球部署
 - ✅ **混合存储** - 支持多存储后端并存
 
-### 👥 用户系统
+### 用户系统
 
 - ✅ **用户认证** - 注册、登录、找回密码、邮箱验证
 - ✅ **权限管理** - 基于角色的访问控制（RBAC）
@@ -127,7 +120,7 @@ Made with ❤️ by the PicHub Team, 服务全球用户 🌍
 - ✅ **使用统计** - 详细的上传、浏览、流量统计
 - ✅ **API 密钥** - 安全的 API 访问凭证管理
 
-### 🔌 API 接口
+### API 接口
 
 - ✅ **RESTful API** - 完整的图片上传、管理、删除接口
 - ✅ **API 文档** - 详细的 API 文档和示例代码
@@ -137,9 +130,9 @@ Made with ❤️ by the PicHub Team, 服务全球用户 🌍
 
 ---
 
-## 🚀 快速开始
+## 快速开始
 
-### 📋 环境要求
+### 环境要求
 
 - PHP >= 8.2
 - Composer
@@ -147,11 +140,11 @@ Made with ❤️ by the PicHub Team, 服务全球用户 🌍
 - MySQL >= 8.0 或 PostgreSQL >= 13
 - Redis （可选，用于缓存和队列）
 
-### ⚡ 一键安装
+### 一键安装
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/yourusername/pichub.git
+git clone https://github.com/truman-world/pichub.git
 cd pichub
 
 # 2. 安装依赖
@@ -182,7 +175,7 @@ php artisan serve
 
 访问 `http://localhost:8000` 开始使用！
 
-### 🐳 Docker 部署
+### Docker 部署
 
 ```bash
 # 使用 Docker Compose 一键部署
@@ -196,20 +189,20 @@ docker-compose exec app php artisan migrate --seed
 
 ---
 
-## 📸 功能截图
+## 功能截图
 
 <table>
 <tr>
 <td width="50%" align="center">
 
-**📱 响应式首页**
+**响应式首页**
 
 <img src="https://via.placeholder.com/500x300/4F46E5/FFFFFF?text=Homepage" alt="首页" width="100%">
 
 </td>
 <td width="50%" align="center">
 
-**🖼️ 图片管理**
+**图片管理**
 
 <img src="https://via.placeholder.com/500x300/10B981/FFFFFF?text=Gallery" alt="图片管理" width="100%">
 
@@ -218,14 +211,14 @@ docker-compose exec app php artisan migrate --seed
 <tr>
 <td width="50%" align="center">
 
-**📁 相册系统**
+**相册系统**
 
 <img src="https://via.placeholder.com/500x300/F59E0B/FFFFFF?text=Albums" alt="相册系统" width="100%">
 
 </td>
 <td width="50%" align="center">
 
-**🎨 暗色模式**
+**暗色模式**
 
 <img src="https://via.placeholder.com/500x300/1F2937/FFFFFF?text=Dark+Mode" alt="暗色模式" width="100%">
 
@@ -235,7 +228,7 @@ docker-compose exec app php artisan migrate --seed
 
 ---
 
-## 🏗️ 技术架构
+## 技术架构
 
 ### 系统架构
 
@@ -284,36 +277,36 @@ pichub/
 
 ---
 
-## 📚 文档
+## 文档
 
 完整的项目文档位于 [`docs/`](docs/) 目录：
 
-### 📖 入门文档
+### 入门文档
 
-- [📘 文档索引](docs/DOCS_INDEX.md) - 所有文档的导航入口
-- [🚀 相册快速开始](docs/ALBUM_QUICK_START.md) - 5分钟快速上手相册功能
-- [📦 相册功能详解](docs/ALBUM_FEATURES.md) - 相册功能完整说明
+- [文档索引](docs/DOCS_INDEX.md) - 所有文档的导航入口
+- [相册快速开始](docs/ALBUM_QUICK_START.md) - 5分钟快速上手相册功能
+- [相册功能详解](docs/ALBUM_FEATURES.md) - 相册功能完整说明
 
-### 👨‍💻 开发文档
+### 开发文档
 
-- [🤖 Claude 开发规范](CLAUDE.md) - AI 辅助开发规范和最佳实践
-- [📊 代码质量审计](docs/code-quality-audit-report.md) - 代码规范和质量要求
-- [🏗️ Controller 审计](docs/controller-audit-summary.md) - 控制器设计规范
+- [Claude 开发规范](CLAUDE.md) - AI 辅助开发规范和最佳实践
+- [代码质量审计](docs/code-quality-audit-report.md) - 代码规范和质量要求
+- [Controller 审计](docs/controller-audit-summary.md) - 控制器设计规范
 
-### ⚙️ 配置指南
+### 配置指南
 
-- [🔄 数据库迁移](docs/MIGRATION_GUIDE.md) - 数据库升级和迁移指南
-- [📧 邮件服务配置](docs/EMAIL_SOLUTIONS.md) - SMTP、SendGrid 等配置
-- [🌐 DNS 配置指南](docs/dns-fix-guide.md) - 域名解析和SSL配置
+- [数据库迁移](docs/MIGRATION_GUIDE.md) - 数据库升级和迁移指南
+- [邮件服务配置](docs/EMAIL_SOLUTIONS.md) - SMTP、SendGrid 等配置
+- [DNS 配置指南](docs/dns-fix-guide.md) - 域名解析和SSL配置
 
-### 🛠️ 运维文档
+### 运维文档
 
-- [🐛 问题修复记录](docs/PROJECT_FIXES.md) - Bug 修复和功能更新日志
-- [📈 性能优化](docs/database-performance-update.md) - 数据库和缓存优化
+- [问题修复记录](docs/PROJECT_FIXES.md) - Bug 修复和功能更新日志
+- [性能优化](docs/database-performance-update.md) - 数据库和缓存优化
 
 ---
 
-## 🌍 多语言支持
+## 多语言支持
 
 PicHub 支持以下语言：
 
@@ -326,7 +319,7 @@ PicHub 支持以下语言：
 
 ---
 
-## 🤝 贡献指南
+## 贡献指南
 
 我们欢迎所有形式的贡献！
 
@@ -350,7 +343,7 @@ PicHub 支持以下语言：
 
 ### 报告问题
 
-发现 Bug？请 [提交 Issue](https://github.com/yourusername/pichub/issues) 并包含：
+发现 Bug？请 [提交 Issue](https://github.com/truman-world/pichub/issues) 并包含：
 
 - 问题描述
 - 复现步骤
@@ -360,25 +353,25 @@ PicHub 支持以下语言：
 
 ---
 
-## 📊 项目统计
+## 项目统计
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/yourusername/pichub?style=social" alt="GitHub stars">
-  <img src="https://img.shields.io/github/forks/yourusername/pichub?style=social" alt="GitHub forks">
-  <img src="https://img.shields.io/github/watchers/yourusername/pichub?style=social" alt="GitHub watchers">
+  <img src="https://img.shields.io/github/stars/truman-world/pichub?style=social" alt="GitHub stars">
+  <img src="https://img.shields.io/github/forks/truman-world/pichub?style=social" alt="GitHub forks">
+  <img src="https://img.shields.io/github/watchers/truman-world/pichub?style=social" alt="GitHub watchers">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/yourusername/pichub" alt="License">
-  <img src="https://img.shields.io/github/v/release/yourusername/pichub" alt="Release">
-  <img src="https://img.shields.io/github/last-commit/yourusername/pichub" alt="Last Commit">
-  <img src="https://img.shields.io/github/issues/yourusername/pichub" alt="Issues">
-  <img src="https://img.shields.io/github/issues-pr/yourusername/pichub" alt="Pull Requests">
+  <img src="https://img.shields.io/github/license/truman-world/pichub" alt="License">
+  <img src="https://img.shields.io/github/v/release/truman-world/pichub" alt="Release">
+  <img src="https://img.shields.io/github/last-commit/truman-world/pichub" alt="Last Commit">
+  <img src="https://img.shields.io/github/issues/truman-world/pichub" alt="Issues">
+  <img src="https://img.shields.io/github/issues-pr/truman-world/pichub" alt="Pull Requests">
 </p>
 
 ---
 
-## 📄 许可证
+## 许可证
 
 本项目采用 [MIT 许可证](LICENSE)。
 
@@ -391,15 +384,15 @@ PicHub 支持以下语言：
 
 ---
 
-## 📞 联系方式
+## 联系方式
 
 <table>
 <tr>
 <td width="50%" align="center">
 
-### 💬 社区支持
+### 社区支持
 
-- [GitHub Discussions](https://github.com/yourusername/pichub/discussions)
+- [GitHub Discussions](https://github.com/truman-world/pichub/discussions)
 - [Discord 社区](https://discord.gg/pichub)
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/pichub)
 - [中文论坛](https://forum.pichub.app)
@@ -407,7 +400,7 @@ PicHub 支持以下语言：
 </td>
 <td width="50%" align="center">
 
-### 📧 商务合作
+### 商务合作
 
 - **官方网站**: https://pichub.app
 - **邮箱**: contact@pichub.app
@@ -420,7 +413,7 @@ PicHub 支持以下语言：
 
 ---
 
-## 🙏 致谢
+## 致谢
 
 感谢以下开源项目和贡献者：
 
@@ -432,9 +425,9 @@ PicHub 支持以下语言：
 
 ---
 
-## 🌟 Star History
+## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/pichub&type=Date)](https://star-history.com/#yourusername/pichub&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=truman-world/pichub&type=Date)](https://star-history.com/#truman-world/pichub&Date)
 
 ---
 
@@ -447,6 +440,6 @@ PicHub 支持以下语言：
   <a href="https://pichub.app">官网</a> •
   <a href="https://pichub.app/docs">文档</a> •
   <a href="https://demo.pichub.app">演示</a> •
-  <a href="https://github.com/yourusername/pichub/issues">问题反馈</a> •
+  <a href="https://github.com/truman-world/pichub/issues">问题反馈</a> •
   <a href="https://twitter.com/pichubapp">Twitter</a>
 </p>
