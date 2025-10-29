@@ -1,6 +1,8 @@
-<div align="center">
+<table>
+<tr>
+<td width="50%" align="center" valign="middle">
 
-<img src="./public/images/pichub-logo.png" alt="PicHub Logo" width="400">
+<img src="https://github.com/truman-world/PicHub/raw/main/public/images/pichub-logo.png" alt="PicHub Logo" width="400">
 
 # PicHub
 
@@ -8,15 +10,8 @@
 
 [在线演示](https://pichub.app) · [问题反馈](https://github.com/truman-world/PicHub/issues)
 
-</div>
-
----
-
-<table>
-<tr>
-<td width="50%" align="center" valign="middle">
-
-<br />
+</td>
+<td width="50%" valign="top">
 
 **后端技术**
 
@@ -46,8 +41,6 @@
 [![Composer](https://img.shields.io/badge/Composer-885630?logo=composer&logoColor=white&style=for-the-badge)](https://getcomposer.org)
 [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge)](https://git-scm.com)
 [![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white&style=for-the-badge)](https://npmjs.com)
-
-<br />
 
 </td>
 </tr>
