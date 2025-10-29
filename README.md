@@ -268,72 +268,40 @@ docker-compose exec app php artisan migrate --seed
 ## 技术架构
 
 ```mermaid
-graph TB
-    subgraph 用户端
-        A[Web 浏览器]
-        B[移动端浏览器]
-        C[API 客户端]
-    end
+graph LR
+    A[PicHub 图床系统] --> B[前端层]
+    A --> C[应用层]
+    A --> D[数据层]
+    A --> E[第三方服务]
 
-    subgraph Laravel应用层
-        D[路由系统]
-        E[控制器层]
-        F[中间件]
-        G[业务逻辑]
-        H[Eloquent ORM]
-        I[服务层]
-    end
+    B --> B1[Web 界面]
+    B --> B2[移动端]
+    B --> B3[API 客户端]
 
-    subgraph 核心功能模块
-        J[图片管理]
-        K[相册系统]
-        L[用户系统]
-        M[订阅系统]
-        N[API服务]
-        O[后台管理]
-    end
+    C --> C1[Laravel 12]
+    C1 --> C11[路由系统]
+    C1 --> C12[控制器]
+    C1 --> C13[中间件]
+    C1 --> C14[Eloquent ORM]
 
-    subgraph 数据存储层
-        P[(MySQL数据库)]
-        Q[本地存储]
-        R[阿里云OSS]
-        S[腾讯云COS]
-        T[七牛云]
-    end
+    C --> C2[核心功能]
+    C2 --> C21[图片管理]
+    C2 --> C22[相册系统]
+    C2 --> C23[用户系统]
+    C2 --> C24[订阅系统]
+    C2 --> C25[API 服务]
+    C2 --> C26[后台管理 Filament 3.2]
 
-    subgraph 第三方服务
-        U[邮件服务]
-        V[支付网关]
-        W[社交登录]
-    end
+    D --> D1[MySQL 数据库]
+    D --> D2[存储服务]
+    D2 --> D21[本地存储]
+    D2 --> D22[阿里云 OSS]
+    D2 --> D23[腾讯云 COS]
+    D2 --> D24[七牛云]
 
-    A --> D
-    B --> D
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-    G --> H
-    G --> I
-
-    E --> J
-    E --> K
-    E --> L
-    E --> M
-    E --> N
-    E --> O
-
-    H --> P
-    J --> Q
-    J --> R
-    J --> S
-    J --> T
-
-    L --> U
-    M --> V
-    L --> W
-
-    O -.Filament 3.2.-> P
+    E --> E1[邮件服务]
+    E --> E2[支付网关]
+    E --> E3[社交登录]
 ```
 
 ### 核心模块说明
